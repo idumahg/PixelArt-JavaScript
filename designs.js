@@ -1,9 +1,11 @@
-// I was greatly helped for this project by the walkthrough video made by Session Lead Rachel Joyce.
 // This is the function that creates the grid.
+const inputHeight = document.getElementById("inputHeight");
+const inputWidth = document.getElementById("inputWidth");
+const table = document.getElementById("pixelCanvas")
+
 function makeGrid() {
-  const gridHeight = document.getElementById("inputHeight").value
-  const gridWidth = document.getElementById("inputWidth").value
-  const table = document.getElementById("pixelCanvas")
+  let gridWidth = inputWidth.value;
+  let gridHeight = inputHeight.value;
 
   for (let height = 0; height < gridHeight; height++) {
     const trElem = document.createElement("tr");
