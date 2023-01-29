@@ -21,7 +21,7 @@ Any user can do the following with the code:
 - Choose any color
 - Click a cell in the grid to fill that cell with the chosen color.
 
-To do this, download the `index.html`, `styles.css` and 'design.js` file. Then open the `index.html` file on any browser, and perfrom the above procedure.
+To do this, download the `index.html`, `styles.css` and `design.js` file. Then open the `index.html` file on any browser, and perfrom the above procedure.
 
 ## Acknowledgements
 - This project is part of the requirement for the Intro to Javascript course of the  Cognizant Full Stack Developer Train to Hire program at Udacity.
