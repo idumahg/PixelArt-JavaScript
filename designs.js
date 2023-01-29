@@ -1,3 +1,4 @@
+// I was greatly helped for this project by the walkthrough video made by Session Lead Rachel Joyce.
 // This is the function that creates the grid.
 function makeGrid() {
   const gridHeight = document.getElementById("inputHeight").value
